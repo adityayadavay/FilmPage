@@ -1,0 +1,58 @@
+.sortBy {
+  padding: 20px;
+  width: 20%;
+  text-align: right;
+  position: relative;
+
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    float: left;
+    margin-top: 10px;
+  }
+
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 13px 30px 13px 30px;
+    font-size: 15px;
+    background-color: white;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  select:hover {
+    outline: none;
+    border-color: #888;
+  }
+
+  select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+
+  }
+
+  .arrowicon {
+    position: absolute;
+    right: 25px;
+    top: 48%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    transition: transform 0.5s ease-in-out;
+    pointer-events: none;
+  }
+
+  .arrowicon.rotated {
+    position: absolute;
+    right: 25px;
+    top: 48%;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%) rotate(180deg);
+  }
+}

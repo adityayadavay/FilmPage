@@ -1,0 +1,16 @@
+.episodetailscontainer {
+    width: 60%;
+
+    p {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: justify;
+        /* font-family: 'Georgia', serif; */
+        font-size: 1.2rem;
+        line-height: 1.75;
+        border-radius: 10px;
+
+
+    }
+}

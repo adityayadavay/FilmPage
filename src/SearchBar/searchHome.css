@@ -1,0 +1,11 @@
+.searchcontainer {
+  display: flex;
+  background-color: #e9e9e9;
+  width: 100%;
+
+  @media screen and (max-width: 600px) {
+    input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+}
