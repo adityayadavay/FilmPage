@@ -18,9 +18,9 @@ const SortBy = (props: SortBy) => {
     return (
         <div className="sortBy">
             <label htmlFor="sortBy">Sort By:</label>
-            <select 
-                defaultValue={sortBy} 
-                id='sortBy' 
+            <select
+                defaultValue={sortBy}
+                id='sortBy'
                 onChange={onChangeSortBy}
                 onFocus={() => setFocused(true)}
                 onBlur={() => setFocused(false)}
